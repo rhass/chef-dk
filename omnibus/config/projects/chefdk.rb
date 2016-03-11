@@ -43,6 +43,7 @@ override :ohai,             version: "master"
 override :inspec,           version: "master"
 override :'kitchen-inspec', version: "master"
 
+override :'dep-selector-libgecode', version: "jk/compiled-ruby"
 override :berkshelf,        version: "master"
 
 override :'test-kitchen',   version: "master"
